@@ -1,0 +1,179 @@
+{
+  "itemdetails": [
+    {
+      "id": "1",
+      "item_img": "images/pizza1.jpg",
+      "item_name": "Mushroom Pizza",
+      "item_price": "350",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "item_img": "images/pizza2.jpg",
+      "item_name": "Paneer Pizza",
+      "item_price": "300",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "item_img": "images/pizza3.jpg",
+      "item_name": "Margherita Pizza",
+      "item_price": "400",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },{
+      "id": "4",
+      "item_img": "images/pizza4.jpg",
+      "item_name": "Cheese Pizza",
+      "item_price": "400",
+      "item_category": "Pizza",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "item_img": "images/burger1.jpg",
+      "item_name": "Veggie Burger",
+      "item_price": "250",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "item_img": "images/burger2.jpg",
+      "item_name": "Chili Burger",
+      "item_price": "350",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "item_img": "images/burger3.jpg",
+      "item_name": "Cheese Burger",
+      "item_price": "500",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },{
+      "id": "8",
+      "item_img": "images/burger4.jpg",
+      "item_name": "HamBurger + Fries",
+      "item_price": "550",
+      "item_category": "Burger",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },{
+      "id": "9",
+      "item_img": "images/Chaat1.jpg",
+      "item_name": "Steamed Momos",
+      "item_price": "120",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },{
+      "id": "10",
+      "item_img": "images/Chaat2.jpg",
+      "item_name": "Pani Puri",
+      "item_price": "30",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },{
+      "id": "11",
+      "item_img": "images/Chaat3.jpg",
+      "item_name": "Samosa",
+      "item_price": "25",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    },{
+      "id": "12",
+      "item_img": "images/Chaat4.jpg",
+      "item_name": "Dahi Puri",
+      "item_price": "40",
+      "item_category": "Chaat",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0",
+      "item_order":[
+        {
+          "order":"01"
+        }
+      ]
+    }
+    
+  ]
+}

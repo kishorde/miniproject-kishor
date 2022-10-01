@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .card_1 {
+            height: max-content;
+            width: max-content;
+            background-color: cadetblue;
+        }
+
+        .item_category_rating,
+        .links,
+        .item_name_price {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card_1">
+        <div><img src="burger.webp" style="height: 20rem;width: 20rem;">
+        </div>
+        <div>
+            <div class="item_name_price">
+                <p id="item_name"></p>
+                <p id="item1_price"></p>
+            </div>
+            <div class="item_category_rating">
+                <p id="item1_category">item_category</p>
+                <p id="item1_rating">rating</p>
+            </div>
+            <div class="links"><img src="like.png" style="height:2rem ;width:2rem;"><p id="item1_likes"></p>
+                <a href="#">Add to fav</a>
+                <a id="rgt2" href="#">Rate/Comment</a>
+            </div>
+            <div><img src="addtoc.png" style="height:5rem; width:100%;"></div>
+        </div>
+
+    </div>
+    <div id="myData"></div>
+    <script>
+        fetch('http://localhost:3000/itemdetails')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        //to print a particular value
+        function appendData(data) {
+            var mainContainer = document.getElementById("item_name");
+            var div = document.createElement("div");
+            div.innerHTML = data[0].item_name;
+            // console.log(data[1].item_order[1]);
+            mainContainer.appendChild(div);
+
+            var mainContainer = document.getElementById("item1_price");
+            var div = document.createElement("div");
+            div.innerHTML = data[0].item_price;
+            console.log(data[0].item_price);
+            mainContainer.appendChild(div);
+
+            var mainContainer = document.getElementById("item1_category");
+            var div = document.createElement("div");
+            div.innerHTML = data[0].item_category;
+            console.log(data[0].item_category);
+            mainContainer.appendChild(div);
+
+            var mainContainer = document.getElementById("item1_rating");
+            var div = document.createElement("div");
+            div.innerHTML = data[0].item_rating;
+            console.log(data[0].item_price);
+            mainContainer.appendChild(div);
+
+            var mainContainer = document.getElementById("item1_likes");
+            var div = document.createElement("div");
+            div.innerHTML = data[0].item_likes;
+            console.log(data[0].item_likes);
+            mainContainer.appendChild(div);
+
+        }
+                //to print all elements:-
+                // function appendData(data) {
+                //     var mainContainer = document.getElementById("myData");
+                //     for (var i = 0; i < data.length; i++) {
+                //         var div = document.createElement("div");
+                //         div.innerHTML = 'Name: ' + data[i].item_name + ' Price: ' + data[i].item_price;
+                //         mainContainer.appendChild(div);
+                //     }
+                // }
+
+    </script>
+
+
+
+</body>
+
+</html>

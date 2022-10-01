@@ -1,0 +1,107 @@
+{
+  "itemdetails": [
+    {
+      "id": "1",
+      "item_name": "Burger",
+      "item_price": "300",
+      "item_category": "Snacks",
+      "item_rating": "5",
+      "item_quantity": "50",
+      "item_likes": "0"
+    },
+    {
+      "id": "2",
+      "item_name": "pizza",
+      "item_price": "322",
+      "item_category": "sides",
+      "item_quantity": "22",
+      "item_likes": "0",
+      "item_rating": "5"
+    },
+    {
+      "id": "3",
+      "item_name": "coke",
+      "item_price": "25",
+      "item_category": "sides",
+      "item_quantity": "25",
+      "item_likes": "0",
+      "item_rating": "5"
+    },
+    {
+      "id": "6",
+      "item_name": "tsatfs",
+      "item_price": "44",
+      "item_category": "jhfhjf",
+      "item_quantity": "444",
+      "item_likes": "0",
+      "item_rating": "0"
+    }
+  ],
+  "userdata": [
+    {
+      "id": "1",
+      "firstname": "hgj",
+      "lastname": "las",
+      "mobno": "7687",
+      "password": "",
+      "dob": "",
+      "fav_like_comment": [
+        {
+          "id": "1",
+          "item_name": "Burger",
+          "item_category": "sides",
+          "like": "0",
+          "favourite": "1",
+          "comment": "Good"
+        }
+      ]
+    }
+  ],
+  "cartdetails": [
+    {
+      "id": "LRc1pj_",
+      "item_name": "Product name",
+      "item_price": "32",
+      "item_category": "Category",
+      "item_quantity": "20",
+      "avl_quantity": "100",
+      "user": [
+        {
+          "name": "poke2",
+          "address": "add2"
+        },
+        {
+          "name": "poke3",
+          "address": "add2"
+        }
+      ]
+    }
+  ],
+  "Favourite": [
+    {
+      "id": "1",
+      "item_name": "Productfs name",
+      "item_category": "sides"
+    },
+    {
+      "id": "3",
+      "item_name": "Productfs name",
+      "item_category": "sides3"
+    },
+    {
+      "id": "2",
+      "item_name": "Productfs name",
+      "item_category": "sides2"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

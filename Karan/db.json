@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "FirstName": "gewgwegwg",
+      "LastName": "wergwtrg",
+      "Email": "wregrtg",
+      "UserName": "gwergwtg",
+      "Password": "etgwrtgw",
+      "Number": "254757",
+      "Photo": "profilepic1.jpg",
+      "id": 4
+    },
+    {
+      "Password": "123451",
+      "Photo": "C:\\fakepath\\regisimg3.jpeg",
+      "id": 7
+    },
+    {
+      "FirstName": "kunal",
+      "LastName": "kaswa",
+      "Email": "kk@gm.com",
+      "UserName": "kunalk",
+      "Password": "1234",
+      "Number": "254757",
+      "Photo": "profilepic1.jpg",
+      "id": 8
+    },
+    {
+      "Password": "12345",
+      "Photo": "C:\\fakepath\\profilepic2.jfif",
+      "id": 5
+    },
+    {
+      "Password": "999999",
+      "Photo": "C:\\fakepath\\regisimg2.jpeg",
+      "id": 6
+    }
+  ]
+}

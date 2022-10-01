@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins' sans-serif;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6,#320683);
+    
+    background-image: url("regisimg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background:white;
+    
+    border-radius: 10px;
+}
+.container .title{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    background-color:crimson;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.container form .user-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+form .user-details .input-box{
+     width: calc(100% / 2 );
+     padding-right: 20px;
+     padding-left: 20px;
+     
+}
+
+.user-details .input-box .details{
+    font-weight: 900;
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-display:initial;
+    font-stretch: expanded;
+    font-kerning: normal;
+    
+
+    
+    
+    
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: 1px sollid black;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 2px;
+    font-style:oblique
+    
+
+
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: black;
+    border-width: 3px;
+}
+form .button {
+    height: 45px;
+    margin: 45px;
+    border-radius: 10px;
+    
+    
+
+    
+}
+form .button input{
+    height: 70px;
+    width: 400px;
+    background-color: lightgoldenrodyellow;
+    font-size: large;
+    font-weight: 900;
+    font-style:unset;
+    border-radius: 20px;
+    
+    
+
+    }
+
+
+    
+
+
+
+form .button :hover{
+    background: linear-gradient(rgb(174, 174, 192));
+    opacity: 1;
+    border: 5px;
+    background-color: lightgreen;
+    padding-left: 40px;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+.bgimg{
+    background-image: url("whiteback.jpeg");
+}
+@media screen and (min-width: 375px) and (max-width:600px){
+    form .user-details .input-box{
+        width: calc(100%);    
+    }
+}

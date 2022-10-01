@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Update ajax</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./Registration.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('value').click(function () {
+                let id = $('#id').val(),
+                    FirstName = $('#FirstName').val(),
+                    LastName = $('#LastName').val(),
+                    Email = $('#Email').val()
+
+                let Details = {
+                    FirstName: $('#FirstName').val(),
+                    LastName: $('#LastName').val(),
+                    Email: $('#Email').val(),
+                    Number: $('#Number').val(),
+                    UserName: $('#UserName').val(),
+                    Photo: $('#Photo').val(),
+                    Password: $('#Password').val(),
+                    ConfirmPassword: $('#ConfirmPassword').val(),
+
+                }
+
+
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:3000/users",
+                    data: Details,
+                    dataType: "json",
+                    success: function (data) {
+                        console.log(data)
+
+                    }
+                });
+            })
+        });
+    </script>
+</head>
+
+<body>
+
+    <div>
+        <div>
+            Profile Photo : <img src="${im" alt="">
+        </div>
+    </div>
+
+
+
+
+
+    ID: <input id="id" type="number">
+    <!-- Title: <input id="title" type="text"> 
+    <input id="author"  type="text">   -->
+    FirstName:<input id="FirstName" type="text"><br>
+    LastName:<input id="LastName" type="text"><br>
+    Email:<input id="Email" type="email"><br>
+    Number:<input id="Number" type="tel" value="${Number}"><br>
+    UserName:<input id="UserName" type="text">
+    Photo:<input id="Photo" type="file">
+    Password:<input id="Password" type="text">
+    ConfirmPassword:<input id="ConfirmPassword" type="text">
+
+    <button id="value" class="btn btn-primary">Get values </button>
+</body>
+
+</html>
